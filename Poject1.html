@@ -4,20 +4,63 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
+            color: #4e4b4b;
+            background-color: #ffffff;
+            text-align: justify;
         }
         header {
-            background: rgba(255, 166, 0, 0.538);
-            color: white;
+            background: rgba(255, 166, 0, 0.758);
+            color:#242323c4;
             padding: 50px; 
+            text-align: center;
+            position: relative;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .top-frame {
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .logo {
+            position: absolute;
+            top: 10px;  
+            left: 15px; 
+            width: 90px; 
+            height:auto;
+    
+        }
+        .top-frame {
+            position: relative; 
+            top: 0px;
+            height: 150px; 
+            padding-left: 180px; 
+        }
+        .logo-footer {
+            width: 50px; 
+            height: auto;
+            margin-left: 15px;
+            display: inline-block;
+            vertical-align: middle;
         }
         
         section {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
+            color: #242323c4;
             background: white;
             box-shadow:black;
             border-radius: 10px;
@@ -27,45 +70,151 @@
             border-radius: 10px;
         }
         footer {
-            background: rgb(255, 166, 0);
-            color: white;
-            padding: 10px;
-            position: fixed;
+            background: rgba(255, 166, 0, 0.758);
+            color: #4e4b4b;
+            padding: 10px 20px;
+            position:relative;
             width: 100%;
+            text-align: left;
             bottom: 0;
         }
+        .home-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            color: #242323c4;
+            padding: 6px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease;
+        }
+        
+        .home-button:hover {
+            background-color: #ffd580;
+        }
+        
+        
+        .home-button:hover {
+            background-color: #ffd580; /
+        }
+        .search-icon {
+            position: absolute;
+            top: 20px;
+            right: 100px; 
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #242323c4;
+        }
+        .search-button {
+            position: absolute;
+            top: 60px; 
+            right: 20px;
+            background-color: white;
+            color: #242323c4;
+            padding: 6px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .search-button:hover {
+            background-color: rgba(255, 166, 0, 0.758); 
+        }
+     
+        
+        
+        
     </style>
 </head>
 <body>
-
         <tr height = "15%">
             <td width = "10%"></td>
         </tr>
-    </table>
-    <header>
-        <img src="Brasilia.png">
-    
-        <h1>Brasília faz 65 Anos!</h1> 
-        <h3>Brasília Celebra seu 64º Aniversário com Grandes Festividades e participação popular em massa!</h3>
-    </header>
+        <header>
+            <a href="index.html" class="home-button">🏠 Home</a>
+            <button class="search-button">🔍</button>
+
+</form>
+
+            <img src="Logo.png" alt="Logo" class="logo">
+            <h1>Brasília faz 65 Anos!</h1> 
+        </header>
+        
 
     <section>
-        <h5>30/03/25 às 16h13 - Atualizado em 04/04/25 às 17h45</h5>
-        <h2>História de Brasília</h2>
-        <p>Em 21 de abril de 1960, Brasília nascia para o mundo e para a sua gente. Com os projetos urbanístico de Lúcio Costa e o arquitetônico de Oscar Niemeyer, surgia uma cidade sob formas inovadoras, diferente de tudo já feito até então. A data de seu nascimento, não foi coincidência: marcava o dia da morte de Tiradentes, um dos líderes mineiros que defendeu a independência do Brasil no século XVIII. O simbolismo ajudou a fortalecer em Brasília o ideal de liberdade de um povo e a coragem de uma nação, associando a inauguração à ideia de independência e rendendo homenagem aos inconfidentes que haviam sonhado com um Brasil livre.</p>
+        <h1>Brasília Comemora 65 Anos com uma Grande Festa e Celebração Popular!</h1>
+        <p>Brasília celebra mais um aniversário em 21 de abril com uma programação repleta de atrações e sabores</p>
+        <p><b>Por Eduarda Bernardino, Curiando o DF </p></b>
+        30/03/25 às 16h13 - Atualizado em 04/04/25 às 17h45</p><br>
+        <h2>Conheça um pouco da História do DF</h2>
+        <p>No dia 21 de abril de 1960, Brasília foi oficialmente inaugurada, tornando-se a nova capital do Brasil e um marco de inovação arquitetônica e urbanística. Planejada por Lúcio Costa e com edificações assinadas por Oscar Niemeyer, a cidade nasceu com um conceito moderno e visionário, rompendo com os padrões tradicionais. A escolha da data não foi aleatória: coincide com o dia da morte de Tiradentes, um dos grandes símbolos da luta pela independência do país. Esse simbolismo reforçou em Brasília a ideia de liberdade e progresso, conectando sua fundação ao sonho de um Brasil mais autônomo e desenvolvimentista.
+        </p>
         <img src="AntigaBsb.png">
+        <abbr title="Construção de Brasília">Foto: Construção de Brasília</abbr>
     </section>
 
     <section>
         <h2> Programação Aniversário de Brasília</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem culpa, quibusdam deleniti quas beatae nemo nobis libero fugit illum! Fugit voluptatem aut iure officia incidunt quisquam ducimus nobis magni!</p>
-        <img src="Fanfarra.png">
+        <tr>
+        <p>O aniversário de Brasília promete ser um evento inesquecível, repleto de cultura, entretenimento e momentos marcantes para todos os públicos. A celebração contará com uma programação diversificada, que inclui apresentações artísticas, gastronomia, exposições e muitas surpresas ao longo do dia.</p><br>
+        <div>
+            <img src="Fanfarra.png" alt="Fanfarra">
+            <abbr title="Desfile Fanfarra">Foto: Desfile Fanfarra 2017</abbr>
+        </div><br>
+        <p>Além das atrações principais, haverá espaços interativos, atividades recreativas para crianças e uma queima de fogos especial para encerrar a noite em grande estilo. Confira a programação completa:</p></td>
+        <ul> 
+        <li> 9:00 – Abertura oficial com apresentações culturais e hasteamento da bandeira</li><br>
+           <li> 11:00 – Feira gastronômica com pratos típicos do Cerrado e food trucks variados</li><br>
+            <li> 13:30 – Espetáculo teatral ao ar livre, contando a história de Brasília</li><br>
+            <li> 15:00 – Exposição de arte e fotografia, destacando o modernismo e a cultura local</li><br>
+            <li>17:00 – Apresentação de grupos de dança e manifestações populares, como o Bumba Meu Boi</li><br>
+            <li>18:30 – Show de luzes e projeções históricas na Esplanada dos Ministérios</li><br>
+            <li>19:00 – Início dos shows musicais com grandes artistas nacionais</li><br>
+            <li>23:59 – Queima de fogos especial para encerrar as festividades</li><br>
+        </ul>
+            <p>Prepare-se para um dia de celebração, cultura e diversão, onde Brasília brilhará ainda mais em seu aniversário!
+        </p>
+
     </section>
     
     <section>
         <h2>Presenças Confirmadas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugiat, perspiciatis voluptatibus, eligendi excepturi delectus et eius tenetur ad deserunt exercitationem asperiores veniam expedita cumque consectetur, vero recusandae iusto quis.</p>
-        <img src="Festa.png">
+        <div>
+            <img src="Festa.png">
+            <abbr title="Festa">Foto: Aniverário de Brasília 2025</abbr>
+        </div>
+        <p>A festa de aniversário de Brasília será embalada por um verdadeiro time de estrelas da música brasileira! Diversos artistas renomados já confirmaram presença para agitar o público em uma noite que promete ser histórica. Os shows acontecerão em diferentes palcos espalhados pela Esplanada, garantindo uma experiência vibrante para todos os gostos.
+            Entre os grandes nomes que vão se apresentar, estão:
+        </p>
+        <ul>
+            <li>Gusttavo Lima</li><br>
+            <li>Wesley Safadão</li><br>
+            <li>Luan Santana</li><br>
+            <li>Zé Neto & Cristiano</li><br>
+            <li>Hugo & Guilherme</li><br>
+            <li>Gustavo Mioto</li><br>
+            <li>Rio Negro & Solimões</li><br>
+            <li>Matheus & Cauã</li><br>
+            <li>Israel & Rodolffo</li><br>
+        </ul>
+        <br>
+    <h2>Venha Celebrar o Aniversário de Brasília!</h2>
+    <p>A festa está montada e a cidade já se prepara para um dos eventos mais grandiosos do ano! Com uma programação recheada de atrações culturais, gastronomia, exposições e grandes shows, o aniversário de Brasília promete ser uma celebração inesquecível para todas as idades.</p><br>
+
+        Seja para prestigiar os espetáculos artísticos, se encantar com a história da nossa capital ou simplesmente curtir um dia de alegria e união, há espaço para todos nessa grande festa. E, claro, com um lineup de peso, a música não vai deixar ninguém parado!
+        
+        Então, marque na agenda, reúna os amigos e a família, e venha fazer parte dessa comemoração especial. Brasília te espera de braços abertos para celebrar mais um ano de história, cultura e progresso. Não fique de fora dessa festa incrível!</p>
     </section>     
     </table>
     <table  width="200%" height="9%">
@@ -75,9 +224,15 @@
     </table>
     <footer>
         <p>&copy; 2025 Celebração de Brasília <br>
-            Governo do Distrito Federal
-        </p>
-    </footer>
+           <p><button><ins>princípios editoriais</ins> <button><ins>política de privacidade</ins></button><button><ins>minha conta</ins></button><button><ins>anuncie conosco</ins></button></p><br>
+            <p><ins>Nos siga nas redes sociais</ins></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">📱</a>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">✉️</a>
+          </div>
+          
+  </footer>
+    
 </body>
 </html>
 
